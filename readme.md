@@ -2,9 +2,10 @@
 yum install centos-release-scl
 yum install rh-python36
 
-#i on CentOS 7 system to enable python3.x
+# on CentOS 7 system to enable python3.x
 scl enable rh-python36 bash
-# now 3.x, note: only set in this shell session. Exit session will go back to 2.x
+
+# now python 3.x, note: only set in this shell session. Exit session will go back to 2.x
 python --version
 
 # activate the virtual environment
